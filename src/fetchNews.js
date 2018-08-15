@@ -13,7 +13,7 @@ state = {
 }
 
 componentDidMount(){
-  let ke = "think again dog"
+  let ke = 'ha'
 fetch(`https://newsapi.org/v2/top-headlines?sources=vice-news&apiKey=${ke}`)
 .then(res => res.json())
 .then(json => {
@@ -33,10 +33,10 @@ this.setState({
 showNews = () => {
   console.log(this.state.news.articles[0]
   )
-  return <div>
+  return <div className="article">
   <h3>{this.state.news.articles[0].title}</h3>
   <p>{this.state.news.articles[0].author}</p>
-  <p>{this.state.news.articles[0].description}</p>
+  <img src={this.state.news.articles[0].urlToImage} height="100" width="150" />
   </div>
 
 }

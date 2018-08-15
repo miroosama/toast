@@ -13,21 +13,42 @@ html, body, #container {
   display: block;
   background: black;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 100px;
+  width: 100px;
   opacity: .9;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+  background: radial-gradient(circle at 20px 20px, #5cabff, #000);
+}
+.news:active {
+  background: red ;
+  background: radial-gradient(circle at 20px 20px, #ffffff, #000);
 }
 
 .news1 {
   position:absolute;
   display: block;
-  opacity: .9;
+  opacity: .5;
   background: black;
   border-radius: 50%;
-  height: 500px;
-  width: 500px;
+  height: 1200px;
+  width: 1200px;
+  top:-5px;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+  background: radial-gradient(circle at 200px 200px, #5cabff, #000);
+  z-index: -2;
+}
+
+.article {
+  text-decoration: underline;
+  position:absolute;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 250px;
+  left: 250px;
+  top: 90px;
+  width: 250px;
+  opacity: .9;
+  margin: 0;
+  background: radial-gradient(circle at 20px 20px, #5cabff, #FFF);
 }
