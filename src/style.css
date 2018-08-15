@@ -1,0 +1,33 @@
+html, body, #container {
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+}
+.page {
+  height: 100%;
+  width: 100%;
+}
+
+.news {
+  position:absolute;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  opacity: .9;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+}
+
+.news1 {
+  position:absolute;
+  display: block;
+  opacity: .9;
+  background: black;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+}
