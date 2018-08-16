@@ -6,7 +6,7 @@ import Master from "./master.js"
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Master />
       </div>
     );

@@ -7,7 +7,7 @@ class Master extends React.Component {
 
   render () {
     return(
-      <div>
+      <div >
       <Fetch />
       </div>
     )

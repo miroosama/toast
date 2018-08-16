@@ -6,6 +6,8 @@ html, body, #container {
 .page {
   height: 100%;
   width: 100%;
+  background: black;
+  z-index: -5;
 }
 
 .news {
@@ -27,18 +29,64 @@ html, body, #container {
 .news1 {
   position:absolute;
   display: block;
+  background-image:url(./img/blSLYcopy.png);
   opacity: .5;
-  background: black;
+  /* background: black; */
   border-radius: 50%;
   height: 1200px;
   width: 1200px;
   top:-5px;
   margin: 0;
-  background: radial-gradient(circle at 200px 200px, #5cabff, #000);
+  /* background: radial-gradient(circle at 200px 200px, #5cabff, #000); */
   z-index: -2;
 }
 
+.img {
+    max-width: 100%;
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+
+}
+
+.text{
+  font-family: Times, Serif;
+  color: white;
+  font-weight: bold;
+  word-wrap: break-word
+}
+
 .article {
+  background-image:url(./img/hillsbw.jpg);
+  position:absolute;
+  /* font-family: Times, Serif;
+  color: Red; */
+  font-style: bold;
+  border-radius: 50%;
+  height: 350px;
+  left: 250px;
+  top: 90px;
+  width: 350px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.article1 {
+  background-image:url(./img/hillsbw.jpg);
+  position:absolute;
+  /* font-family: Times, Serif;
+  color: Red; */
+  font-style: bold;
+  border-radius: 50%;
+  height: 350px;
+  left: 850px;
+  top: 400px;
+  width: 350px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/* .article {
   text-decoration: underline;
   position:absolute;
   display: block;
@@ -50,5 +98,6 @@ html, body, #container {
   width: 250px;
   opacity: .9;
   margin: 0;
+  border:hidden;
   background: radial-gradient(circle at 20px 20px, #5cabff, #FFF);
-}
+} */
