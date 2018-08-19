@@ -14,7 +14,7 @@ state = {
 }
 
 componentDidMount(){
-  let ke = "aha"
+  let ke = 0
 fetch(`https://newsapi.org/v2/top-headlines?sources=vice-news&apiKey=${ke}`)
 .then(res => res.json())
 .then(json => {

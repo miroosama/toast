@@ -51,14 +51,16 @@ html, body, #container {
 
 .text{
   font-family: Times, Serif;
-  color: white;
+  color: Black;
   font-weight: bold;
-  word-wrap: break-word
+  word-wrap: break-word;
+  max-width:350px;
 }
 
 .article {
-  background-image:url(./img/hillsbw.jpg);
+  /* background-image:url(./img/hillsbw.jpg); */
   position:absolute;
+  background: white;
   /* font-family: Times, Serif;
   color: Red; */
   font-style: bold;
@@ -72,8 +74,9 @@ html, body, #container {
 }
 
 .article1 {
-  background-image:url(./img/hillsbw.jpg);
+  /* background-image:url(./img/hillsbw.jpg); */
   position:absolute;
+  background: white;
   /* font-family: Times, Serif;
   color: Red; */
   font-style: bold;
