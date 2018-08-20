@@ -55,6 +55,7 @@ html, body, #container {
   font-weight: bold;
   word-wrap: break-word;
   max-width:350px;
+  margin: 25px 50px;
 }
 
 .article {
@@ -87,6 +88,28 @@ html, body, #container {
   width: 350px;
   text-align: center;
   word-wrap: break-word;
+}
+
+.article2 {
+  /* background-image:url(./img/hillsbw.jpg); */
+  position:absolute;
+  background: white;
+  /* font-family: Times, Serif;
+  color: Red; */
+  font-style: bold;
+  border-radius: 50%;
+  height: 350px;
+  left: 550px;
+  top: 820px;
+  width: 350px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.video {
+  position:absolute;
+  left: 150px;
+  top: 455px;
 }
 
 /* .article {
